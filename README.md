@@ -11,7 +11,7 @@
 再點一下「確定」，程式就能自動為每張圖片生成帶有水印的版本。
 不需要任何 PS 技巧，就能快速完成原本繁瑣的影像批次處理工作。
 
-## -以下是我們利用chatgpt從0產生的程式碼-
+# -以下是我們利用chatgpt從0產生的程式碼-
     import os
     import tkinter as tk
     from tkinter import filedialog, messagebox
@@ -117,4 +117,13 @@
     root = tk.Tk()
     app = WatermarkApp(root)
     root.mainloop()
-## -接下來是呈現結果-
+# -接下來是呈現結果-
+## 1. 一開始的結果
+![01](https://github.com/lshengwei048/Software-Engineering-1/blob/39f5d77bdbd9d151e338500bd54f80b49b347fae/%E7%B5%90%E6%9E%9C1.png)
+## 2. 並選擇檔案、字體、字體大小以及你想要的浮水印
+![01](https://github.com/lshengwei048/Software-Engineering-1/blob/39f5d77bdbd9d151e338500bd54f80b49b347fae/%E7%B5%90%E6%9E%9C2.png)
+## 3. 完成的圖片就會長這樣
+![01](https://github.com/lshengwei048/Software-Engineering-1/blob/39f5d77bdbd9d151e338500bd54f80b49b347fae/%E7%B5%90%E6%9E%9C3.png)
+
+# -結論-
+## 這次完成浮水印的專案後，我們最大的收穫是能夠從零開始，結合人工智慧工具與程式設計，實際完成一個能解決問題的作品。起初我們決定透過 ChatGPT 的協助，一步步學習如何用 Python 撰寫批次加浮水印的程式。從安裝環境、導入 Pillow 套件、設定文字內容，到調整透明度、字體與位置，我們邊做邊學習。中間遇到許多問題像是路徑錯誤、編碼不符、圖片格式不支援等，但在反覆查資料與修改程式後，最終順利完成所有圖片的自動加水印功能。看到成品時，我們感受到從無到有的成就感。這次專案讓我們深刻體會到寫程式不只是照範例操作，而是透過不斷嘗試與調整去解決問題，也讓我們理解到 ChatGPT 不只是輔助工具，更像是一位能引導我們思考與學習的夥伴。透過這次經驗，我們對自動化與人工智慧的實際應用有了更深的理解，也對未來的專案開發更有信心。
